@@ -1,0 +1,116 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,800');
+
+hr{
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color:#b2d8d8;
+  height: 5px;
+}
+
+.nameBar{
+  width: 70%;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: 32pt;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  height: 50px;
+}
+
+.menuBar{
+  text-align: center;
+
+}
+
+body{
+  background-color: white;
+  margin:auto;
+
+}
+
+.subPageHeader{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 200;
+  font-size: 26pt;
+}
+
+.enclosure{
+  background-color: #DCDCDC;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 50px;
+  padding-top: 1px;
+  width: 72%;
+  margin: auto;
+}
+
+.myPic{
+  width: 30%;
+  height: 380px;
+  margin-right: 20px;
+  float:left;
+}
+.blockForTable{
+  height: 100px;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+table{
+  height: 50px;
+  margin:auto;
+  width: 72%;
+
+}
+
+td{
+  height: 25px;
+  width: 10%;
+  font-size: 16pt;
+  font-family: 'Montserrat',sans-serif;
+  color: white;
+
+}
+
+a{
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #b2d8d8;
+  text-decoration:overline;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+}
+p{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  font-size: 10pt;
+
+}
+
+footer{
+  position: fixed;
+  margin: auto;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+.gitlogo{
+  margin-top: 15px;
+  width: 25px;
+  height: 25px;
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,800');
+
+hr{
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color:#b2d8d8;
+  height: 5px;
+}
+
+.nameBar{
+  width: 70%;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-size: 32pt;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 500;
+  height: 50px;
+}
+
+.menuBar{
+  text-align: center;
+
+}
+
+body{
+  background-color: white;
+  margin: auto;
+}
+
+.subPageHeader{
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 200;
+  font-size: 26pt;
+}
+
+.blockForTable{
+  height: 100px;
+  background-color: black;
+  width: 100%;
+  margin: auto;
+}
+
+table{
+  height: 100px;
+  margin:auto;
+  width: 72%;
+
+}
+
+td{
+  height: 25px;
+  width: 10%;
+  font-size: 16pt;
+  font-family: 'Montserrat',sans-serif;
+  color: white;
+
+}
+
+a{
+  color: white;
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+  text-decoration: none;
+}
+a:hover{
+  color: #b2d8d8;
+  text-decoration:overline;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+}
+
+.enclosure{
+  background-color: #DCDCDC;
+  padding-left: 28px;
+  padding-right: 28px;
+  padding-bottom: 50px;
+  padding-top: 1px;
+  width: 72%;
+  margin: auto;
+}
+
+.portTable{
+  margin:auto;
+  background-color: #A9A9A9;
+}
+
+.portRow{
+  width: 100%;
+  height: 100px;
+
+}
+
+.portElements{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 50%;
+}
+
+.portElements:hover{
+  background-color:#b2d8d8;
+}
+
+img{
+  height: 100px;
+  width: 100px;
+}
+
+.description{
+  font-size: 12pt;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.portLinks{
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+  text-decoration: none;
+}
+.portLinks:hover{
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat',sans-serif;
+  font-weight: 100;
+  font-size: 14pt;
+}
+
+footer{
+  position: fixed;
+  margin: auto;
+  bottom: 0;
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  height: 50px;
+}
+
+.gitlogo{
+  margin-top: 15px;
+  width: 25px;
+  height: 25px;
+}
