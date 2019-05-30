@@ -3,6 +3,17 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,800');
 
+/*hide initial mobile layouts */
+
+.blockForTableMobile{
+  display: none;
+}
+
+.enclosureMobile{
+  display: none;
+}
+
+
 hr{
   margin-top: 0;
   margin-bottom: 0;
@@ -113,4 +124,55 @@ footer{
   margin-top: 5px;
   width: 25px;
   height: 25px;
+}
+
+/* MEDIA QUERIES TABLET - 800px */
+/* this should handle all sized below 800 - tested and looks pretty decent */
+
+@media screen and (max-width: 800px) {
+
+  body{
+  }
+
+  .blockForTable{
+    display: none;
+  }
+
+  .blockForTableMobile{
+    background-color: black;
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .nameBar{
+    text-align: center;
+  }
+
+  .enclosure{
+    display: none;
+  }
+
+  .enclosureMobile{
+    display:block;
+    background-color: #DCDCDC;
+    width: 100%;
+    margin:auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .picHolder{
+    margin: auto;
+    text-align: center;
+  }
+  .mobilePic{
+    width: 75%;
+    height: auto;
+    margin: auto;
+    float: none;
+
+  }
+
+
+
 }

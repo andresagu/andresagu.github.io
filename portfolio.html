@@ -4,6 +4,7 @@
 
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Student Bio</title>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="styles/portfolioStyle.css">
@@ -19,6 +20,27 @@
         </tr>
     </table>
   </div>
+
+
+  <!--HEADER FORMAT TO USE WHEN USING SMALLER SCREEN SIZED (>768px)  -->
+
+  <div class="blockForTableMobile">
+    <table>
+      <tr class="menuBar">
+        <td class="nameBar">Andres Aguaiza</td>
+      </tr>
+      <tr class="menuBar">
+        <td><a href="https://andresagu.github.io/index.html">About</a></td>
+      </tr>
+      <tr class="menuBar">
+        <td><a href="https://andresagu.github.io/portfolio.html" >Portfolio</a></td>
+      </tr>
+      <tr class="menuBar">
+        <td><a href="https://andresagu.github.io/contact.html">Contact</a></td>
+      </tr>
+    </table>
+  </div>
+
 
   <body>
     <hr>
@@ -58,16 +80,52 @@
                 </a>
               </td>
           </tr>
-          <!-- <tr class = "portRow">
-              <td class = "portElements">
-                <a href="https://github.com/andresagu/MG-ScaleDemo"><img src="flower.jpg" alt="ScaleDemo"></a>
-              </td>
-              <td class = "portElements">
-                <a href="https://github.com/andresagu/MG-ScaleDemo"><img src="flower.jpg" alt="ScaleDemo"></a>
-              </td>
-          </tr> -->
       </table>
   </div>
+
+  <!--ADJUSTED TABLE FOR MOBILE VIEWING  -->
+
+  <div class = "enclosureMobile">
+    <br>
+    <h1 class = "subPageHeader">Portfolio</h1>
+
+    <table class = "portTable">
+        <tr class = "portRow">
+            <td class = "portElements">
+              <a class = "portLinks" href="https://github.com/andresagu/MG-ScaleDemo">
+              <img src="pics/scale.png" alt="ScaleDemo">
+              <h5>Scale Demo</h5>
+              <p class = "description"> BLE Scale demo for iOS that integrates a thermal printer and it's peripherals <p>
+              </a>
+            </td>
+          </tr>
+          <tr class = "portRow">
+            <td class = "portElements">
+              <a class = "portLinks" href="https://github.com/andresagu/PressPRNT"><img src="pics/flic.png" alt="ScaleDemo">
+              <h5>PressPRNT</h5>
+              <p class = "description"> Flic button integration that triggers a thermal printer for camera roll image printing <p>
+              </a>
+            </td>
+        </tr>
+        <tr class = "portRow">
+            <td class = "portElements">
+              <a class="portLinks" href="https://github.com/andresagu/Cannabis-Checkout-Demo">
+              <img src="pics/weed.png" alt="ScaleDemo">
+              <h5>CannabisPOS Demo</h5>
+              <p class = "description"> Sleek and complete Point-of-Sale demo targeted for cannabis dispesaries  <p>
+              </a>
+            </td>
+          </tr>
+            <td class = "portElements">
+              <a class = "portLinks" href="https://github.com/andresagu/hello-universe"><img src="pics/universe.png" alt="ScaleDemo">
+              <h5>helloUniverse</h5>
+              <p class = "description"> First github repo - being used to test markdown language and track my dev progress <p>
+              </a>
+            </td>
+        </tr>
+    </table>
+</div>
+
 
 
 
